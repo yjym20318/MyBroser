@@ -9,7 +9,7 @@
   if it doesn't very well, thank you for your understanding
   </p>
 
-# Ending
+## Ending
 <br />
 if you think it's good, I think it will help you for a long time
 <br />
