@@ -32,7 +32,7 @@ class MainDemo(QMainWindow):
 		self.tabs.setTabsClosable(True)
 		# 设置关闭按钮的槽
 		self.tabs.tabCloseRequested.connect(self.close_current_tab)
-		self.add_new_tab(QUrl(".\Homepage\main.html"), 'Homepage')
+		self.add_new_tab(QUrl("C:/Program Files/Homepage/main.html"), 'Homepage')
 		self.setCentralWidget(self.tabs)
 		new_tab_action = QAction(QIcon('icons/add_page.png'), 'New Page', self)
 		new_tab_action.triggered.connect(self.add_new_tab)
